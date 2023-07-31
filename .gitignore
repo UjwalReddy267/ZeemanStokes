@@ -1,0 +1,4 @@
+#Ignore all notebooks
+*.ipynb
+#Ignore save files
+*.sav
