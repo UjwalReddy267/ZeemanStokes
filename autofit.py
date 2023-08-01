@@ -1,8 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import pickle
-
-f = pickle.load(open('G089.75_5.sav','rb')) 
 
 from lmfit import Minimizer,Parameters
 #define class for components
