@@ -263,7 +263,7 @@ class ZeemanStokes:
             comp = self.components[id]
             if comp.type !='HINSA':
                 V = comp.V_emit(self.x)
-                if not pc:
+                if pc:
                     for j in self.order[:n]: 
                         comp_ = self.components[j]
                         if comp_.type != 'HINSA':
